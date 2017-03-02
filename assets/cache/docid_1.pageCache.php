@@ -1,10 +1,11 @@
-<?php die('Unauthorized access.'); ?>a:39:{s:2:"id";s:1:"1";s:4:"type";s:8:"document";s:11:"contentType";s:9:"text/html";s:9:"pagetitle";s:14:"Главная";s:9:"longtitle";s:14:"Главная";s:11:"description";s:0:"";s:5:"alias";s:4:"main";s:15:"link_attributes";s:0:"";s:9:"published";s:1:"1";s:8:"pub_date";s:10:"1487945640";s:10:"unpub_date";s:1:"0";s:6:"parent";s:1:"0";s:8:"isfolder";s:1:"0";s:9:"introtext";s:0:"";s:7:"content";s:0:"";s:8:"richtext";s:1:"1";s:8:"template";s:1:"3";s:9:"menuindex";s:1:"1";s:10:"searchable";s:1:"1";s:9:"cacheable";s:1:"1";s:9:"createdby";s:1:"1";s:9:"createdon";s:10:"1130304721";s:8:"editedby";s:1:"1";s:8:"editedon";s:10:"1487962251";s:7:"deleted";s:1:"0";s:9:"deletedon";s:1:"0";s:9:"deletedby";s:1:"0";s:11:"publishedon";s:10:"1487945640";s:11:"publishedby";s:1:"1";s:9:"menutitle";s:14:"Главная";s:7:"donthit";s:1:"0";s:11:"haskeywords";s:1:"0";s:11:"hasmetatags";s:1:"0";s:10:"privateweb";s:1:"0";s:10:"privatemgr";s:1:"0";s:13:"content_dispo";s:1:"0";s:8:"hidemenu";s:1:"0";s:13:"alias_visible";s:1:"1";s:17:"__MODxDocGroups__";s:0:"";}<!--__MODxCacheSpliter__--><!DOCTYPE html>
+<?php die('Unauthorized access.'); ?>a:39:{s:2:"id";s:1:"1";s:4:"type";s:8:"document";s:11:"contentType";s:9:"text/html";s:9:"pagetitle";s:14:"Главная";s:9:"longtitle";s:14:"Главная";s:11:"description";s:42:"Главная страница сайта";s:5:"alias";s:4:"main";s:15:"link_attributes";s:0:"";s:9:"published";s:1:"1";s:8:"pub_date";s:10:"1487945640";s:10:"unpub_date";s:1:"0";s:6:"parent";s:1:"0";s:8:"isfolder";s:1:"0";s:9:"introtext";s:0:"";s:7:"content";s:69:"[[Ditto? &amp;parents=`5` &amp;tpl=`CAROUSEL_NEWS` &amp;display=`3`]]";s:8:"richtext";s:1:"1";s:8:"template";s:1:"3";s:9:"menuindex";s:1:"1";s:10:"searchable";s:1:"1";s:9:"cacheable";s:1:"1";s:9:"createdby";s:1:"1";s:9:"createdon";s:10:"1130304721";s:8:"editedby";s:1:"1";s:8:"editedon";s:10:"1488366552";s:7:"deleted";s:1:"0";s:9:"deletedon";s:1:"0";s:9:"deletedby";s:1:"0";s:11:"publishedon";s:10:"1487945640";s:11:"publishedby";s:1:"1";s:9:"menutitle";s:14:"Главная";s:7:"donthit";s:1:"0";s:11:"haskeywords";s:1:"0";s:11:"hasmetatags";s:1:"0";s:10:"privateweb";s:1:"0";s:10:"privatemgr";s:1:"0";s:13:"content_dispo";s:1:"0";s:8:"hidemenu";s:1:"0";s:13:"alias_visible";s:1:"1";s:17:"__MODxDocGroups__";s:0:"";}<!--__MODxCacheSpliter__--><!DOCTYPE html>
 <html lang="en">
     <head>
-    <meta charset="utf-8">
+    <meta charset=UTF-8>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Vasko personal</title>
+	<meta name="description" content="Главная страница сайта"/>
+    <title>Главная | Test MODX</title>
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <link rel="icon" href="favicon.ico" type="image/x-icon">
     <!-- Bootstrap -->
@@ -31,16 +32,13 @@
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
 	<base href="http://modx/" />
+	[!SendMail!]
   </head>
     <body>
-        <noscript>
-        <div class="error-js"><strong>Для полной функциональности этого сайта необходимо включить JavaScript.</strong> Вот <a href="http://artjoker.ua/ru/how-to-enable-javascript/" target="_blank">инструкции</a>, как включить JavaScript в вашем браузере.
-        </div>
-        </noscript>
+        <noscript><div class="error-js"><strong>Для полной функциональности этого сайта необходимо включить JavaScript.</strong> Вот <a href="http://artjoker.ua/ru/how-to-enable-javascript/" target="_blank">инструкции</a>, как включить JavaScript в вашем браузере.</div></noscript>
         <!--[if lte IE 8]>
           <p class="off-js">Ваш браузер устарел, пожалуйста <b>обновите</b> его.</p>
         <![endif]-->
-
         <div id="page_wrapper">
             <!--page_wrapper start-->
 
@@ -48,7 +46,7 @@
                   <header id="header">
         <div class="container">
           <div class="col-md-3 col-sm-4 col-xs-12 animated" data-animation="fadeInRight" data-animation-delay="600">
-            <a href="#" class="logo"><img src="/assets/templates/basic/images/logo.png" alt="" /></a>
+            <a href="[~1~]" class="logo"><img src="/assets/templates/basic/images/logo.png" alt="" /></a>
           </div>
           <div class="col-md-9 col-sm-8 col-xs-12">
             <div class="right_head animated" data-animation="fadeInLeft" data-animation-delay="600">
@@ -78,7 +76,7 @@
               </div>
 			<!-- Collect the nav links, forms, and other content for toggling -->
               <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-	[!Wayfinder? &outerClass=`nav navbar-nav navbar-right` &startId=`0` &hereClass=``!]               
+	[!Wayfinder? &outerClass=`nav navbar-nav navbar-right` &startId=`0` !]               
 </div>
 			<!-- /.navbar-collapse -->
             </nav>
@@ -185,44 +183,39 @@
                 <div class="col-md-9 col-sm-9 col-xs-9">
                   <div class="content">
                     <p>Доверяя нам подбор сотрудников, вы будете избавлены от проведения тестирований и собеседований. Все соискатели проходят качественный отбор, в течение которого оценивается их степень соответствия требованиям вашей фирмы. И огромного количества претендентов отбираются наиболее подходящие кандидатуры, которые потенциально могли бы вам подойти. Такой подбор существенно экономит ваше время, поскольку вы встречаетесь только с проверенными и надежными специалистами.</p>
-                    <div class="quote">Поскольку основной целью агентства является долгосрочное сотрудничество с клиентами, мы допускаем применение различных видов оплат: с авансовыми платежами и без них, с применением гибких систем ценообразования. 
-                    </div>
+<div class="quote">Поскольку основной целью агентства является долгосрочное сотрудничество с клиентами, мы допускаем применение различных видов оплат: с авансовыми платежами и без них, с применением гибких систем ценообразования.</div>
                   </div>
-                  <a href="#" class="btn btn_transp">подробнее</a>
+                  <a href="[~3~]" class="btn btn_transp">подробнее</a>
                 </div>
               </div>
             </div>
             <div class="col-md-4 col-sm-12 col-xs-12 news_item animated" data-animation="fadeInLeft" data-animation-delay="600">
               <strong class="heading">Последние новости</strong>
                 <!-- .carousel -->
-                <div class="owl-carousel-news owl-theme">
-                  <a href="#" class="item">
-                    <img src="/assets/templates/basic/assets/images/new1.jpg" alt="First slide">
-                    <div class="info_news">
-                      <span class="date">21/05/2014</span>
-                      <span class="title_new">С чего начать поиск работы1</span>
-                      <p>Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum</p>
-                    </div>
-                  </a>
-                  <a href="#" class="item">
-                    <img src="/assets/templates/basic/assets/images/new1.jpg" alt="Second slide">
-                    <div class="info_news">
-                      <span class="date">21/05/2014</span>
-                      <span class="title_new">С чего начать поиск работы2</span>
-                      <p>Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum</p>
-                    </div>
-                  </a>
-                  <a href="#" class="item">
-                    <img src="/assets/templates/basic/assets/images/new1.jpg" alt="Third slide">
-                    <div class="info_news">
-                      <span class="date">21/05/2014</span>
-                      <span class="title_new">С чего начать поиск работы3</span>
-                      <p>Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum</p>
-                    </div>
-                  </a>
-                </div>
+                <div class="owl-carousel-news owl-theme"><a href="[~1~]" class="item">
+     <img src="assets/images/new4.jpg" align="top" />
+    <div class="info_news">
+        <span class="date">01.Mar.17 13:28</span>
+        <span class="title_new">С чего начать поиск работы 6</span>
+        <p>Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Можно даже не заморачиваться регистрацией на различных сайтах по трудоустройству. На rabota.ua есть немало вакансий в разделе «другие страны». Плюс, LinkedIn заполнен вакансиями для англо- и русскоязычных людей, начиная с Праги, Кракова, Варшавы</p>
+    </div>
+</a><a href="[~1~]" class="item">
+     <img src="assets/images/new3.jpg" align="top" />
+    <div class="info_news">
+        <span class="date">01.Mar.17 13:27</span>
+        <span class="title_new">С чего начать поиск работы 5</span>
+        <p>Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Можно даже не заморачиваться регистрацией на различных сайтах по трудоустройству. На rabota.ua есть немало вакансий в разделе «другие страны». Плюс, LinkedIn заполнен вакансиями для англо- и русскоязычных людей, начиная с Праги, Кракова, Варшавы</p>
+    </div>
+</a><a href="[~1~]" class="item">
+     <img src="assets/images/new3.jpg" align="top" />
+    <div class="info_news">
+        <span class="date">26.Feb.17 12:24</span>
+        <span class="title_new">С чего начать поиск работы 4</span>
+        <p>Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Можно даже не заморачиваться регистрацией на различных сайтах по трудоустройству. На rabota.ua есть немало вакансий в разделе «другие страны». Плюс, LinkedIn заполнен вакансиями для англо- и русскоязычных людей, начиная с Праги, Кракова, Варшавы</p>
+    </div>
+</a></div>
                 <!-- /.carousel -->
-              <a href="#" class="btn btn_transp">Все новости</a>
+              <a href="[~5~]" class="btn btn_transp">Все новости</a>
             </div>
         </div>
       </section> 
@@ -235,27 +228,27 @@
           </div>
           <div class="row">
             <div class="col-sm-12 benefits_block">
-              <div class="col-md-3 col-sm-6 col-xs-6 benefit_item">
-                <span class="icon_item"><img src="/assets/templates/basic/assets/images/icon5.png" alt="" /></span>
-                <span class="title">Экономия времени</span>
-              </div>
-              <div class="col-md-3 col-sm-6 col-xs-6 benefit_item">
-                <span class="icon_item"><img src="/assets/templates/basic/assets/images/icon6.png" alt="" /></span>
-                <span class="title">гарантия</span>
-              </div>
-              <div class="col-md-3 col-sm-6 col-xs-6 benefit_item">
-                <span class="icon_item"><img src="/assets/templates/basic/assets/images/icon7.png" alt="" /></span>
-                <span class="title">Профессионализм</span>
-              </div>
-              <div class="col-md-3 col-sm-6 col-xs-6 benefit_item">
-                <span class="icon_item"><img src="/assets/templates/basic/assets/images/icon8.png" alt="" /></span>
-                <span class="title">экономия финансов</span>
-              </div>
-            </div>
+    <div class="col-md-3 col-sm-6 col-xs-6 benefit_item">
+        <span class="icon_item"><img src="/assets/templates/basic/assets/images/icon5.png" alt="" /></span>
+        <span class="title">Экономия времени</span>
+    </div>
+    <div class="col-md-3 col-sm-6 col-xs-6 benefit_item">
+        <span class="icon_item"><img src="/assets/templates/basic/assets/images/icon6.png" alt="" /></span>
+        <span class="title">гарантия</span>
+    </div>
+    <div class="col-md-3 col-sm-6 col-xs-6 benefit_item">
+        <span class="icon_item"><img src="/assets/templates/basic/assets/images/icon7.png" alt="" /></span>
+        <span class="title">Профессионализм</span>
+    </div>
+    <div class="col-md-3 col-sm-6 col-xs-6 benefit_item">
+        <span class="icon_item"><img src="/assets/templates/basic/assets/images/icon8.png" alt="" /></span>
+        <span class="title">экономия финансов</span>
+    </div>
+</div>
           </div>
-          <div class="col-sm-12 content">
-            <p>Кадровое агентство в Киеве «Vasko-personal» — один из лидеров в своей отралси. Основа нашего успеха заключается<br/>в четкой концентрации на едином направлении - рекрутинге.</p>
-          </div>
+          	<div class="col-sm-12 content">
+	<p>Кадровое агентство в Киеве «Vasko-personal» — один из лидеров в своей отралси. Основа нашего успеха заключается<br/>в четкой концентрации на едином направлении - рекрутинге.</p>
+</div>
         </div>
       </section> 
             <!--benefits end-->
@@ -349,7 +342,7 @@
             <div class="modal-body">
                 <p>Оставьте свой номер телефона, и мы Вам перезвоним</p>
                 <div class="form">
-                    <form class="contact js_validate" method="post" action="#">
+                    <form id='modal' class="contact js_validate mod_form" method="post" action="#">
                         <div class="form-group col-xs-12">
                             <label for="name" class="label">Имя*</label>
                             <input type="text" class="form-control" name="name" id="name" required />
@@ -363,7 +356,7 @@
                             <div class="error_text"><i class="form-control-feedback"></i></div>
                         </div>
                         <div class="form-group col-xs-12">  
-                            <button class="btn btn_green" type="submit" name="submit" id="submit">Отправить</button>
+                            <button class="btn btn_green" type="submit" name="submit" id="">Отправить</button>
                         </div>
                     </form>
                 </div>

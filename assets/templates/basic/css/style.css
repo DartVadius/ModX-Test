@@ -1359,3 +1359,6 @@ input[type="checkbox"],input[type="radio"] {
    .btn_green {width: auto;height: auto;white-space: normal;}
    .wrap_404 .container {padding: 30px 0;}
 }
+.one_news {
+	margin:0 0 20px 0;
+}
