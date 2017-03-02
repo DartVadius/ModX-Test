@@ -188,8 +188,7 @@ function validate(form) {
             $('#call_you').attr('style', 'display: none');
             var data;
             if (form.hasClass('con_form')) {
-                data = $('#contact-form').serialize() + '&id=con';
-                alert(data);
+                data = $('#contact-form').serialize() + '&id=con';                
             }
             if (form.hasClass('mod_form')) {
                 data = $('#modal').serialize() + '&id=mod';                
