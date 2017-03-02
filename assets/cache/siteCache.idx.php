@@ -1028,7 +1028,7 @@ if ($_POST[\'id\'] == \'mod\') {
 } else {
 	return false;
 }
-mail($modx->getConfig(\'emailsender\'), $subject, $message, "From: test@test.com; Content-type:text/plain; Charset=utf-8\\r\\n");';$p=&$this->pluginCache;$p['CodeMirror']='/**
+mail($modx->getConfig(\'emailsender\'), $subject, $message, "From: test@test.com \\r\\n Content-type:text/plain; Charset=utf-8");';$p=&$this->pluginCache;$p['CodeMirror']='/**
  * CodeMirror
  *
  * JavaScript library that can be used to create a relatively pleasant editor interface based on CodeMirror 5.12
