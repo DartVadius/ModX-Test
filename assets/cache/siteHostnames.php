@@ -1,2 +1,2 @@
 <?php
-define('MODX_SITE_HOSTNAMES', 'modx');
+define('MODX_SITE_HOSTNAMES', '');
